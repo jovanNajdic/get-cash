@@ -1,0 +1,79 @@
+.main-nav {
+  padding: 20px 0;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.brand > span:first-of-type {
+  font-weight: 400;
+}
+
+.mapEl {
+  width: 100%;
+  height: 350px;
+}
+
+.error-screen {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.error-card > img {
+  margin: 10px;
+}
+
+.error-card .title {
+  text-align: center;
+}
+
+.error-card .title > h5 {
+  margin-top: 20px;
+}
+
+.error-body {
+  text-align: center;
+}
+
+.get-distance {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.get-distance h4 {
+  margin: 10px 0;
+}
+
+.distance-button {
+  background: #fff;
+  outline: none;
+  border: 1px solid #333;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .main-nav .row {
+    justify-content: center;
+  }
+}
